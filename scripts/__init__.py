@@ -1,6 +1,9 @@
 from .create_db import create as create
-from .config import Config as config
+from .edit import edit as edit
+from .get import get as get
 
 __all__ = [
-    'create'
+    'create',
+    'edit',
+    'get'
 ]
